@@ -1,0 +1,17 @@
+{
+  "name": "firstpair-reader",
+  "version": "0.0.0",
+  "private": true,
+  "description": "FirstPair Reader and FirstPair Triptych, Obsidian plugins for reading and reviewing books in a vault.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "python3 scripts/bundle-obsidian-plugin.py plugins/firstpair-reader && python3 scripts/bundle-firstpair-triptych.py",
+    "check": "python3 scripts/bundle-obsidian-plugin.py plugins/firstpair-reader --check && python3 scripts/bundle-firstpair-triptych.py --check && node --check plugins/firstpair-reader/main.js && node --check plugins/firstpair-triptych/main.js",
+    "test": "npm run check && node --test tests/test-support.cjs tests/test-firstpair-reader.mjs tests/test-firstpair-reader-dom.mjs tests/test-firstpair-reader-books.mjs tests/test-firstpair-reader-contract.cjs tests/test-firstpair-triptych.cjs",
+    "qa:vaults": "node tests/reader-real-vaults.mjs",
+    "release": "sh scripts/release.sh"
+  }
+}
