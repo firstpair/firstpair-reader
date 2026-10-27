@@ -1,0 +1,65 @@
+{
+  "schema": "firstpair-reader.v2",
+  "title": "A Madman's Diary",
+  "author": "Lu Xun (鲁迅)",
+  "subtitle": "狂人日记 · 1918 · the preface and the first entry",
+  "lang": "en",
+  "ui_lang": "en",
+  "launcher": "Diary of a Madman/Home.md",
+  "contents": "Diary of a Madman/Book/Contents.md",
+  "parts": [
+    {
+      "id": "P01",
+      "title": "Preface",
+      "note": "Diary of a Madman/Book/01 Preface.md"
+    },
+    {
+      "id": "P02",
+      "title": "The Diary",
+      "note": "Diary of a Madman/Book/02 The Diary.md"
+    }
+  ],
+  "pages": [
+    {
+      "id": "p001",
+      "title": "Preface",
+      "part": "P01",
+      "chapter": "Diary of a Madman/_data/pages/p001.json"
+    },
+    {
+      "id": "p002",
+      "title": "Entry I",
+      "part": "P02",
+      "chapter": "Diary of a Madman/_data/pages/p002.json"
+    }
+  ],
+  "aligned": {
+    "schema": "firstpair-parallel-reader-v1",
+    "title": "A Madman's Diary",
+    "unit": "paragraph",
+    "sourceLanguage": {
+      "id": "zh",
+      "lang": "zh",
+      "label": "中文",
+      "position": "left",
+      "optional": true,
+      "defaultVisible": false
+    },
+    "translations": [
+      {
+        "id": "en",
+        "lang": "en",
+        "label": "English",
+        "title": "Sample translation",
+        "defaultVisible": true
+      }
+    ],
+    "interlinear": {
+      "layers": [
+        "pinyin",
+        "gloss"
+      ],
+      "glossLang": "en"
+    }
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "schema": "firstpair-aligned-chapter-v1",
+  "id": "p002",
+  "title": "Entry I",
+  "units": [
+    {
+      "id": "b0005",
+      "kind": "heading",
+      "source": [
+        "一"
+      ],
+      "translations": {
+        "en": [
+          "I"
+        ]
+      },
+      "words": [
+        [
+          "一",
+          "yī",
+          "one"
+        ]
+      ]
+    },
+    {
+      "id": "b0006",
+      "source": [
+        "今天晚上，很好的月光。"
+      ],
+      "translations": {
+        "en": [
+          "Tonight the moonlight is very fine."
+        ]
+      },
+      "words": [
+        [
+          "今天",
+          "jīntiān",
+          "today"
+        ],
+        [
+          "晚上",
+          "wǎnshang",
+          "evening"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "很",
+          "hěn",
+          "very"
+        ],
+        [
+          "好",
+          "hǎo",
+          "good"
+        ],
+        [
+          "的",
+          "de",
+          "(of)"
+        ],
+        [
+          "月光",
+          "yuèguāng",
+          "moonlight"
+        ],
+        [
+          "。",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "b0007",
+      "source": [
+        "我不见他，已是三十多年；今天见了，精神分外爽快。才知道以前的三十多年，全是发昏；然而须十分小心。不然，那赵家的狗，何以看我两眼呢？"
+      ],
+      "translations": {
+        "en": [
+          "I had not seen it for more than thirty years; seeing it today, I feel unusually clear-headed. Only now do I know that those thirty-odd years were spent in a daze. But I must be very careful. Otherwise, why would the Zhaos' dog have looked at me twice?"
+        ]
+      },
+      "words": [
+        [
+          "我",
+          "wǒ",
+          "I"
+        ],
+        [
+          "不见",
+          "bújiàn",
+          "not see"
+        ],
+        [
+          "他",
+          "tā",
+          "it (the moon)"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "已",
+          "yǐ",
+          "already"
+        ],
+        [
+          "是",
+          "shì",
+          "be"
+        ],
+        [
+          "三十多年",
+          "sānshíduōnián",
+          "thirty-odd years"
+        ],
+        [
+          "；",
+          "",
+          ""
+        ],
+        [
+          "今天",
+          "jīntiān",
+          "today"
+        ],
+        [
+          "见",
+          "jiàn",
+          "see"
+        ],
+        [
+          "了",
+          "le",
+          "(done)"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "精神",
+          "jīngshen",
+          "spirits"
+        ],
+        [
+          "分外",
+          "fènwài",
+          "unusually"
+        ],
+        [
+          "爽快",
+          "shuǎngkuài",
+          "refreshed"
+        ],
+        [
+          "。",
+          "",
+          ""
+        ],
+        [
+          "才",
+          "cái",
+          "only then"
+        ],
+        [
+          "知道",
+          "zhīdào",
+          "know"
+        ],
+        [
+          "以前",
+          "yǐqián",
+          "before"
+        ],
+        [
+          "的",
+          "de",
+          "(of)"
+        ],
+        [
+          "三十多年",
+          "sānshíduōnián",
+          "thirty-odd years"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "全",
+          "quán",
+          "entirely"
+        ],
+        [
+          "是",
+          "shì",
+          "be"
+        ],
+        [
+          "发昏",
+          "fāhūn",
+          "in a daze"
+        ],
+        [
+          "；",
+          "",
+          ""
+        ],
+        [
+          "然而",
+          "rán'ér",
+          "however"
+        ],
+        [
+          "须",
+          "xū",
+          "must"
+        ],
+        [
+          "十分",
+          "shífēn",
+          "extremely"
+        ],
+        [
+          "小心",
+          "xiǎoxīn",
+          "careful"
+        ],
+        [
+          "。",
+          "",
+          ""
+        ],
+        [
+          "不然",
+          "bùrán",
+          "otherwise"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "那",
+          "nà",
+          "that"
+        ],
+        [
+          "赵家",
+          "Zhàojiā",
+          "the Zhao family"
+        ],
+        [
+          "的",
+          "de",
+          "'s"
+        ],
+        [
+          "狗",
+          "gǒu",
+          "dog"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "何以",
+          "héyǐ",
+          "why"
+        ],
+        [
+          "看",
+          "kàn",
+          "look at"
+        ],
+        [
+          "我",
+          "wǒ",
+          "me"
+        ],
+        [
+          "两眼",
+          "liǎngyǎn",
+          "two glances"
+        ],
+        [
+          "呢",
+          "ne",
+          "(question)"
+        ],
+        [
+          "？",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "b0008",
+      "source": [
+        "我怕得有理。"
+      ],
+      "translations": {
+        "en": [
+          "I have good reason to be afraid."
+        ]
+      },
+      "words": [
+        [
+          "我",
+          "wǒ",
+          "I"
+        ],
+        [
+          "怕",
+          "pà",
+          "fear"
+        ],
+        [
+          "得",
+          "de",
+          "(so that)"
+        ],
+        [
+          "有理",
+          "yǒulǐ",
+          "with reason"
+        ],
+        [
+          "。",
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

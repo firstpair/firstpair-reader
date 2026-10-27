@@ -1,0 +1,58 @@
+{
+  "fragments": [
+    {
+      "id": "convert",
+      "symbol": "convert",
+      "source_path": "tone_marks.py",
+      "code_note": "Tone Marks/Code/tone_marks",
+      "start_line": 41,
+      "end_line": 42,
+      "summary": "Convert a whole line: every numbered syllable is replaced in place."
+    },
+    {
+      "id": "main",
+      "symbol": "main",
+      "source_path": "tone_marks.py",
+      "code_note": "Tone Marks/Code/tone_marks",
+      "start_line": 45,
+      "end_line": 47,
+      "summary": "Read standard input line by line and print each line converted."
+    },
+    {
+      "id": "MARKS",
+      "symbol": "MARKS",
+      "source_path": "tone_marks.py",
+      "code_note": "Tone Marks/Code/tone_marks",
+      "start_line": 6,
+      "end_line": 9,
+      "summary": "The four marked forms of each vowel, in tone order."
+    },
+    {
+      "id": "mark_vowel",
+      "symbol": "mark_vowel",
+      "source_path": "tone_marks.py",
+      "code_note": "Tone Marks/Code/tone_marks",
+      "start_line": 14,
+      "end_line": 25,
+      "summary": "The placement rule: a or e if present, the o of ou, else the last vowel."
+    },
+    {
+      "id": "SYLLABLE",
+      "symbol": "SYLLABLE",
+      "source_path": "tone_marks.py",
+      "code_note": "Tone Marks/Code/tone_marks",
+      "start_line": 11,
+      "end_line": 11,
+      "summary": "A syllable is letters (with ü or u: or v) followed by a tone digit."
+    },
+    {
+      "id": "convert_syllable",
+      "symbol": "convert_syllable",
+      "source_path": "tone_marks.py",
+      "code_note": "Tone Marks/Code/tone_marks",
+      "start_line": 28,
+      "end_line": 38,
+      "summary": "Normalise ü, find the vowel, and put the mark on it; tone 5 is unmarked."
+    }
+  ]
+}

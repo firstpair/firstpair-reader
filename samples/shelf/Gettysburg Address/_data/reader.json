@@ -1,0 +1,49 @@
+{
+  "schema": "firstpair-reader.v2",
+  "title": "The Gettysburg Address",
+  "author": "Abraham Lincoln",
+  "subtitle": "November 19, 1863 · the Bliss copy",
+  "lang": "en",
+  "ui_lang": "en",
+  "launcher": "Gettysburg Address/Home.md",
+  "contents": "Gettysburg Address/Book/Contents.md",
+  "parts": [
+    {
+      "id": "P01",
+      "title": "The Address",
+      "note": "Gettysburg Address/Book/Address.md"
+    }
+  ],
+  "pages": [
+    {
+      "id": "p001",
+      "title": "Four score and seven years ago",
+      "part": "P01",
+      "note": "Gettysburg Address/Book/Address.md",
+      "marker": {
+        "start": "<!-- page:p001 -->",
+        "end": "<!-- /page:p001 -->"
+      }
+    },
+    {
+      "id": "p002",
+      "title": "Now we are engaged",
+      "part": "P01",
+      "note": "Gettysburg Address/Book/Address.md",
+      "marker": {
+        "start": "<!-- page:p002 -->",
+        "end": "<!-- /page:p002 -->"
+      }
+    },
+    {
+      "id": "p003",
+      "title": "But, in a larger sense",
+      "part": "P01",
+      "note": "Gettysburg Address/Book/Address.md",
+      "marker": {
+        "start": "<!-- page:p003 -->",
+        "end": "<!-- /page:p003 -->"
+      }
+    }
+  ]
+}

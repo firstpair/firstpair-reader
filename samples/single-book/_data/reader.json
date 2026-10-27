@@ -1,0 +1,72 @@
+{
+  "schema": "firstpair-reader.v2",
+  "title": "Dao De Jing, chapters 1–3",
+  "author": "Laozi (老子)",
+  "subtitle": "道德经 · the Wang Bi text · two English translations",
+  "lang": "en",
+  "ui_lang": "en",
+  "launcher": "Home.md",
+  "contents": "Book/Contents.md",
+  "parts": [
+    {
+      "id": "P01",
+      "title": "The Way (chapters 1–3)",
+      "note": "Book/01 The Way.md"
+    }
+  ],
+  "pages": [
+    {
+      "id": "p001",
+      "title": "Chapter 1",
+      "part": "P01",
+      "chapter": "_data/pages/p001.json"
+    },
+    {
+      "id": "p002",
+      "title": "Chapter 2",
+      "part": "P01",
+      "chapter": "_data/pages/p002.json"
+    },
+    {
+      "id": "p003",
+      "title": "Chapter 3",
+      "part": "P01",
+      "chapter": "_data/pages/p003.json"
+    }
+  ],
+  "aligned": {
+    "schema": "firstpair-parallel-reader-v1",
+    "title": "Dao De Jing, chapters 1–3",
+    "unit": "paragraph",
+    "sourceLanguage": {
+      "id": "zh",
+      "lang": "zh",
+      "label": "中文",
+      "position": "left"
+    },
+    "translations": [
+      {
+        "id": "en",
+        "lang": "en",
+        "label": "English",
+        "title": "Sample translation (2026)",
+        "default": true,
+        "defaultVisible": true
+      },
+      {
+        "id": "legge",
+        "lang": "en",
+        "label": "English",
+        "title": "James Legge (1891)",
+        "defaultVisible": true
+      }
+    ],
+    "interlinear": {
+      "layers": [
+        "pinyin",
+        "gloss"
+      ],
+      "glossLang": "en"
+    }
+  }
+}

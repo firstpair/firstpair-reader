@@ -1,0 +1,77 @@
+{
+  "schema": "firstpair-reader.v2",
+  "title": "Лунь юй · Беседы и суждения",
+  "author": "Конфуций и его ученики",
+  "subtitle": "论语 · 学而 1.1–1.4",
+  "lang": "ru",
+  "ui_lang": "ru",
+  "launcher": "Analects/Home.md",
+  "contents": "Analects/Book/Contents.md",
+  "parts": [
+    {
+      "id": "P01",
+      "title": "Глава 1. Учиться (学而)",
+      "note": "Analects/Book/01 Учиться.md"
+    }
+  ],
+  "pages": [
+    {
+      "id": "p001",
+      "title": "1.1",
+      "part": "P01",
+      "chapter": "Analects/_data/pages/p001.json"
+    },
+    {
+      "id": "p002",
+      "title": "1.2",
+      "part": "P01",
+      "chapter": "Analects/_data/pages/p002.json"
+    },
+    {
+      "id": "p003",
+      "title": "1.3",
+      "part": "P01",
+      "chapter": "Analects/_data/pages/p003.json"
+    },
+    {
+      "id": "p004",
+      "title": "1.4",
+      "part": "P01",
+      "chapter": "Analects/_data/pages/p004.json"
+    }
+  ],
+  "aligned": {
+    "schema": "firstpair-parallel-reader-v1",
+    "title": "Лунь юй · Беседы и суждения",
+    "unit": "paragraph",
+    "sourceLanguage": {
+      "id": "zh",
+      "lang": "zh",
+      "label": "中文",
+      "position": "left"
+    },
+    "translations": [
+      {
+        "id": "ru",
+        "lang": "ru",
+        "label": "Русский",
+        "title": "Учебный перевод",
+        "defaultVisible": true
+      },
+      {
+        "id": "en",
+        "lang": "en",
+        "label": "English",
+        "title": "Sample translation",
+        "defaultVisible": false
+      }
+    ],
+    "interlinear": {
+      "layers": [
+        "pinyin",
+        "gloss"
+      ],
+      "glossLang": "ru"
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+ "schema": "firstpair.triptych-metrics.v1",
+ "metrics": [
+  {
+   "key": "changed",
+   "letter": "Δ",
+   "better": "lower",
+   "format": "percent",
+   "warn": 15,
+   "bad": 35,
+   "rank": 1,
+   "label": {
+    "en": "Changed"
+   },
+   "description": {
+    "en": "Share of words changed since the previous draft."
+   }
+  },
+  {
+   "key": "sentence_length",
+   "letter": "L",
+   "better": "lower",
+   "format": "decimal1",
+   "warn": 20,
+   "bad": 26,
+   "rank": 2,
+   "label": {
+    "en": "Sentence length"
+   },
+   "description": {
+    "en": "Mean words per sentence."
+   }
+  },
+  {
+   "key": "words",
+   "letter": "W",
+   "better": "lower",
+   "format": "integer",
+   "rank": 3,
+   "label": {
+    "en": "Words"
+   },
+   "description": {
+    "en": "Words on the page."
+   }
+  }
+ ],
+ "values": {
+  "drafts/p01": {
+   "draft-1": {
+    "words": 53,
+    "sentence_length": 13.25
+   },
+   "draft-2": {
+    "words": 55,
+    "sentence_length": 13.75,
+    "changed": 7.4
+   },
+   "final": {
+    "words": 56,
+    "sentence_length": 14.0,
+    "changed": 4.5
+   }
+  },
+  "drafts/p02": {
+   "draft-1": {
+    "words": 51,
+    "sentence_length": 12.75
+   },
+   "draft-2": {
+    "words": 35,
+    "sentence_length": 11.67,
+    "changed": 20.9
+   },
+   "final": {
+    "words": 42,
+    "sentence_length": 14.0,
+    "changed": 11.7
+   }
+  },
+  "drafts/p03": {
+   "draft-1": {
+    "words": 28,
+    "sentence_length": 14.0
+   },
+   "draft-2": {
+    "words": 43,
+    "sentence_length": 14.33,
+    "changed": 21.1
+   },
+   "final": {
+    "words": 41,
+    "sentence_length": 13.67,
+    "changed": 7.1
+   }
+  },
+  "drafts/p04": {
+   "draft-1": {
+    "words": 63,
+    "sentence_length": 15.75
+   },
+   "draft-2": {
+    "words": 53,
+    "sentence_length": 13.25,
+    "changed": 10.3
+   },
+   "final": {
+    "words": 53,
+    "sentence_length": 13.25,
+    "changed": 0.0
+   }
+  },
+  "drafts/p05": {
+   "draft-1": {
+    "words": 30,
+    "sentence_length": 15.0
+   },
+   "draft-2": {
+    "words": 31,
+    "sentence_length": 15.5,
+    "changed": 4.9
+   },
+   "final": {
+    "words": 43,
+    "sentence_length": 14.33,
+    "changed": 18.9
+   }
+  },
+  "drafts/p06": {
+   "final": {
+    "words": 13,
+    "sentence_length": 6.5
+   }
+  },
+  "revision/p01": {
+   "draft-2": {
+    "words": 55,
+    "sentence_length": 13.75
+   },
+   "final": {
+    "words": 56,
+    "sentence_length": 14.0,
+    "changed": 4.5
+   }
+  },
+  "revision/p02": {
+   "draft-2": {
+    "words": 35,
+    "sentence_length": 11.67
+   },
+   "final": {
+    "words": 42,
+    "sentence_length": 14.0,
+    "changed": 11.7
+   }
+  },
+  "revision/p03": {
+   "draft-2": {
+    "words": 43,
+    "sentence_length": 14.33
+   },
+   "final": {
+    "words": 41,
+    "sentence_length": 13.67,
+    "changed": 7.1
+   }
+  },
+  "revision/p04": {
+   "draft-2": {
+    "words": 53,
+    "sentence_length": 13.25
+   },
+   "final": {
+    "words": 53,
+    "sentence_length": 13.25,
+    "changed": 0.0
+   }
+  },
+  "revision/p05": {
+   "draft-2": {
+    "words": 31,
+    "sentence_length": 15.5
+   },
+   "final": {
+    "words": 43,
+    "sentence_length": 14.33,
+    "changed": 18.9
+   }
+  },
+  "revision/p06": {
+   "final": {
+    "words": 13,
+    "sentence_length": 6.5
+   }
+  }
+ }
+}

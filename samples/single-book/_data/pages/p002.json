@@ -1,0 +1,595 @@
+{
+  "schema": "firstpair-aligned-chapter-v1",
+  "id": "p002",
+  "title": "Chapter 2",
+  "units": [
+    {
+      "id": "b0006",
+      "kind": "heading",
+      "source": [
+        "第二章"
+      ],
+      "translations": {
+        "en": [
+          "Chapter 2"
+        ],
+        "legge": [
+          "Chapter 2"
+        ]
+      },
+      "words": [
+        [
+          "第二章",
+          "dì'èrzhāng",
+          "chapter two"
+        ]
+      ]
+    },
+    {
+      "id": "b0007",
+      "source": [
+        "天下皆知美之为美，斯恶已；皆知善之为善，斯不善已。"
+      ],
+      "translations": {
+        "en": [
+          "When everyone under heaven knows beauty as beauty, there is ugliness already; when all know good as good, there is the not-good already."
+        ],
+        "legge": [
+          "All in the world know the beauty of the beautiful, and in doing this they have (the idea of) what ugliness is; they all know the skill of the skilful, and in doing this they have (the idea of) what the want of skill is."
+        ]
+      },
+      "words": [
+        [
+          "天下",
+          "tiānxià",
+          "all under heaven"
+        ],
+        [
+          "皆",
+          "jiē",
+          "all"
+        ],
+        [
+          "知",
+          "zhī",
+          "know"
+        ],
+        [
+          "美",
+          "měi",
+          "beauty"
+        ],
+        [
+          "之",
+          "zhī",
+          "(subj.)"
+        ],
+        [
+          "为",
+          "wéi",
+          "as"
+        ],
+        [
+          "美",
+          "měi",
+          "beauty"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "斯",
+          "sī",
+          "then"
+        ],
+        [
+          "恶",
+          "è",
+          "ugliness"
+        ],
+        [
+          "已",
+          "yǐ",
+          "already"
+        ],
+        [
+          "；",
+          "",
+          ""
+        ],
+        [
+          "皆",
+          "jiē",
+          "all"
+        ],
+        [
+          "知",
+          "zhī",
+          "know"
+        ],
+        [
+          "善",
+          "shàn",
+          "good"
+        ],
+        [
+          "之",
+          "zhī",
+          "(subj.)"
+        ],
+        [
+          "为",
+          "wéi",
+          "as"
+        ],
+        [
+          "善",
+          "shàn",
+          "good"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "斯",
+          "sī",
+          "then"
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "善",
+          "shàn",
+          "good"
+        ],
+        [
+          "已",
+          "yǐ",
+          "already"
+        ],
+        [
+          "。",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "b0008",
+      "source": [
+        "故有无相生，难易相成，长短相形，高下相倾，音声相和，前后相随。"
+      ],
+      "translations": {
+        "en": [
+          "So being and non-being give birth to each other, hard and easy complete each other, long and short shape each other, high and low lean on each other, note and voice answer each other, before and after follow each other."
+        ],
+        "legge": [
+          "So it is that existence and non-existence give birth the one to (the idea of) the other; that difficulty and ease produce the one (the idea of) the other; that length and shortness fashion out the one the figure of the other; that (the ideas of) height and lowness arise from the contrast of the one with the other; that the musical notes and tones become harmonious through the relation of one with another; and that being before and behind give the idea of one following another."
+        ]
+      },
+      "words": [
+        [
+          "故",
+          "gù",
+          "so"
+        ],
+        [
+          "有",
+          "yǒu",
+          "being"
+        ],
+        [
+          "无",
+          "wú",
+          "non-being"
+        ],
+        [
+          "相",
+          "xiāng",
+          "each other"
+        ],
+        [
+          "生",
+          "shēng",
+          "give birth"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "难",
+          "nán",
+          "hard"
+        ],
+        [
+          "易",
+          "yì",
+          "easy"
+        ],
+        [
+          "相",
+          "xiāng",
+          "each other"
+        ],
+        [
+          "成",
+          "chéng",
+          "complete"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "长",
+          "cháng",
+          "long"
+        ],
+        [
+          "短",
+          "duǎn",
+          "short"
+        ],
+        [
+          "相",
+          "xiāng",
+          "each other"
+        ],
+        [
+          "形",
+          "xíng",
+          "shape"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "高",
+          "gāo",
+          "high"
+        ],
+        [
+          "下",
+          "xià",
+          "low"
+        ],
+        [
+          "相",
+          "xiāng",
+          "each other"
+        ],
+        [
+          "倾",
+          "qīng",
+          "lean on"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "音",
+          "yīn",
+          "note"
+        ],
+        [
+          "声",
+          "shēng",
+          "voice"
+        ],
+        [
+          "相",
+          "xiāng",
+          "each other"
+        ],
+        [
+          "和",
+          "hè",
+          "answer"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "前",
+          "qián",
+          "before"
+        ],
+        [
+          "后",
+          "hòu",
+          "after"
+        ],
+        [
+          "相",
+          "xiāng",
+          "each other"
+        ],
+        [
+          "随",
+          "suí",
+          "follow"
+        ],
+        [
+          "。",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "b0009",
+      "source": [
+        "是以圣人处无为之事，行不言之教；"
+      ],
+      "translations": {
+        "en": [
+          "Therefore the sage abides in the work of not-doing and practises the teaching without words."
+        ],
+        "legge": [
+          "Therefore the sage manages affairs without doing anything, and conveys his instructions without the use of speech."
+        ]
+      },
+      "words": [
+        [
+          "是以",
+          "shìyǐ",
+          "therefore"
+        ],
+        [
+          "圣人",
+          "shèngrén",
+          "the sage"
+        ],
+        [
+          "处",
+          "chǔ",
+          "abide in"
+        ],
+        [
+          "无为",
+          "wúwéi",
+          "not-doing"
+        ],
+        [
+          "之",
+          "zhī",
+          "'s"
+        ],
+        [
+          "事",
+          "shì",
+          "work"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "行",
+          "xíng",
+          "practise"
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "言",
+          "yán",
+          "speak"
+        ],
+        [
+          "之",
+          "zhī",
+          "'s"
+        ],
+        [
+          "教",
+          "jiào",
+          "teaching"
+        ],
+        [
+          "；",
+          "",
+          ""
+        ]
+      ]
+    },
+    {
+      "id": "b0010",
+      "source": [
+        "万物作焉而不辞，生而不有，为而不恃，功成而弗居。夫唯弗居，是以不去。"
+      ],
+      "translations": {
+        "en": [
+          "The ten thousand things arise and he does not turn them away; he gives life but does not possess, acts but does not presume, completes the work but does not dwell on it. Just because he does not dwell on it, it does not leave him."
+        ],
+        "legge": [
+          "All things spring up, and there is not one which declines to show itself; they grow, and there is no claim made for their ownership; they go through their processes, and there is no expectation (of a reward for the results). The work is accomplished, and there is no resting in it (as an achievement).",
+          "The work is done, but how no one can see;",
+          "'Tis this that makes the power not cease to be."
+        ]
+      },
+      "words": [
+        [
+          "万物",
+          "wànwù",
+          "the ten thousand things"
+        ],
+        [
+          "作",
+          "zuò",
+          "arise"
+        ],
+        [
+          "焉",
+          "yān",
+          "there"
+        ],
+        [
+          "而",
+          "ér",
+          "and"
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "辞",
+          "cí",
+          "refuse"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "生",
+          "shēng",
+          "give life"
+        ],
+        [
+          "而",
+          "ér",
+          "but"
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "有",
+          "yǒu",
+          "possess"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "为",
+          "wéi",
+          "act"
+        ],
+        [
+          "而",
+          "ér",
+          "but"
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "恃",
+          "shì",
+          "presume"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "功",
+          "gōng",
+          "work"
+        ],
+        [
+          "成",
+          "chéng",
+          "complete"
+        ],
+        [
+          "而",
+          "ér",
+          "but"
+        ],
+        [
+          "弗",
+          "fú",
+          "not"
+        ],
+        [
+          "居",
+          "jū",
+          "dwell"
+        ],
+        [
+          "。",
+          "",
+          ""
+        ],
+        [
+          "夫",
+          "fú",
+          "now"
+        ],
+        [
+          "唯",
+          "wéi",
+          "only because"
+        ],
+        [
+          "弗",
+          "fú",
+          "not"
+        ],
+        [
+          "居",
+          "jū",
+          "dwell"
+        ],
+        [
+          "，",
+          "",
+          ""
+        ],
+        [
+          "是以",
+          "shìyǐ",
+          "therefore"
+        ],
+        [
+          "不",
+          "bù",
+          "not"
+        ],
+        [
+          "去",
+          "qù",
+          "leave"
+        ],
+        [
+          "。",
+          "",
+          ""
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": 4,
+  "title": "The Ferry at Low Water",
+  "book_version": "1.0.0",
+  "source_commit": "0000000000000000000000000000000000000003",
+  "project_id": "ferry-sample",
+  "source_content_id": "sha256:e8a23f2b04a07895f70f174f237fc0ef9be96629b41c5cb23818ac820b259d8d",
+  "target_contract_version": "firstpair.rosetta-editorial.v1",
+  "launcher": "The Ferry Crossing/Triptychs/Reader",
+  "contents": "The Ferry Crossing/Triptychs/Contents",
+  "review": "The Ferry Crossing/Triptychs/Review",
+  "editions": [
+    {
+      "id": "draft-1",
+      "version": "0.1.0",
+      "source_commit": "0000000000000000000000000000000000000001"
+    },
+    {
+      "id": "draft-2",
+      "version": "0.2.0",
+      "source_commit": "0000000000000000000000000000000000000002"
+    },
+    {
+      "id": "final",
+      "version": "1.0.0",
+      "source_commit": "0000000000000000000000000000000000000003"
+    }
+  ],
+  "sets": [
+    {
+      "id": "drafts",
+      "title": "All drafts",
+      "description": "Every draft side by side: Draft 1, Draft 2, Final.",
+      "note": "The Ferry Crossing/Triptychs/All drafts",
+      "edition_ids": [
+        "draft-1",
+        "draft-2",
+        "final"
+      ],
+      "navigation_edition_id": "final",
+      "parts": [
+        {
+          "id": "river",
+          "title": "The River",
+          "heading": "Part I — The River",
+          "order": 1
+        },
+        {
+          "id": "crossing",
+          "title": "The Crossing",
+          "heading": "Part II — The Crossing",
+          "order": 2
+        }
+      ],
+      "pages": [
+        {
+          "key": "drafts/p01",
+          "note": "The Ferry Crossing/Triptychs/All drafts/0001 The Ferry at Low Water",
+          "title": "The Ferry at Low Water",
+          "part_id": "river",
+          "order": 1,
+          "target_digest": "sha256:107cd315f26b8d817e3645ef5cadb3cd6cd6f5c95fa780b967d6bddd5ee76875"
+        },
+        {
+          "key": "drafts/p02",
+          "note": "The Ferry Crossing/Triptychs/All drafts/0002 The boatman",
+          "title": "The boatman",
+          "part_id": "river",
+          "order": 2,
+          "target_digest": "sha256:3497ce6aea128cfb9a03c60420ea9af782e930843c6d024d0b66f9ba39522457"
+        },
+        {
+          "key": "drafts/p03",
+          "note": "The Ferry Crossing/Triptychs/All drafts/0003 Children on the landing",
+          "title": "Children on the landing",
+          "part_id": "river",
+          "order": 3,
+          "target_digest": "sha256:89dd6f23bbede46a0626863071b22a75abc95cb68958423b8bdd3229ddf7ff26"
+        },
+        {
+          "key": "drafts/p04",
+          "note": "The Ferry Crossing/Triptychs/All drafts/0004 The crossing",
+          "title": "The crossing",
+          "part_id": "crossing",
+          "order": 4,
+          "target_digest": "sha256:31f9a1dc51858d30c0a535db4444a38fd4953bc2457c858c652d24959b215c41"
+        },
+        {
+          "key": "drafts/p05",
+          "note": "The Ferry Crossing/Triptychs/All drafts/0005 The council meeting",
+          "title": "The council meeting",
+          "part_id": "crossing",
+          "order": 5,
+          "target_digest": "sha256:40aa740b16c37bbce7edf3ffab051b3051e8dc4393b554c8c984cb21e90e79b9"
+        },
+        {
+          "key": "drafts/p06",
+          "note": "The Ferry Crossing/Triptychs/All drafts/0006 Coda",
+          "title": "Coda",
+          "part_id": "crossing",
+          "order": 6,
+          "target_digest": "sha256:50929a254c0180fd1a2787209de4e3694e88ba7d7b413c0c40119ecd212dccb0"
+        }
+      ]
+    },
+    {
+      "id": "revision",
+      "title": "Last revision",
+      "description": "The last revision only: Draft 2 against Final.",
+      "note": "The Ferry Crossing/Triptychs/Last revision",
+      "edition_ids": [
+        "draft-2",
+        "final"
+      ],
+      "navigation_edition_id": "final",
+      "parts": [
+        {
+          "id": "river",
+          "title": "The River",
+          "heading": "Part I — The River",
+          "order": 1
+        },
+        {
+          "id": "crossing",
+          "title": "The Crossing",
+          "heading": "Part II — The Crossing",
+          "order": 2
+        }
+      ],
+      "pages": [
+        {
+          "key": "revision/p01",
+          "note": "The Ferry Crossing/Triptychs/Last revision/0001 The Ferry at Low Water",
+          "title": "The Ferry at Low Water",
+          "part_id": "river",
+          "order": 1,
+          "target_digest": "sha256:778ef0891340875ce12fe83cfef44f15cdf8d8e81924e36f7d528adc9b1f03dd"
+        },
+        {
+          "key": "revision/p02",
+          "note": "The Ferry Crossing/Triptychs/Last revision/0002 The boatman",
+          "title": "The boatman",
+          "part_id": "river",
+          "order": 2,
+          "target_digest": "sha256:57a7c835fae02e11358420582ba61da5083d5a6f700a3b333396f543e937f3f4"
+        },
+        {
+          "key": "revision/p03",
+          "note": "The Ferry Crossing/Triptychs/Last revision/0003 Children on the landing",
+          "title": "Children on the landing",
+          "part_id": "river",
+          "order": 3,
+          "target_digest": "sha256:d51f1a22a82d470061ed056ac0748d2ea2f43b2e5448589e30d83ef8aa79f9c0"
+        },
+        {
+          "key": "revision/p04",
+          "note": "The Ferry Crossing/Triptychs/Last revision/0004 The crossing",
+          "title": "The crossing",
+          "part_id": "crossing",
+          "order": 4,
+          "target_digest": "sha256:baccb590d397ef44af1c900b35075d4b7b79967e6d5193f7e0bd1cbb3f9881c8"
+        },
+        {
+          "key": "revision/p05",
+          "note": "The Ferry Crossing/Triptychs/Last revision/0005 The council meeting",
+          "title": "The council meeting",
+          "part_id": "crossing",
+          "order": 5,
+          "target_digest": "sha256:3eac967388df6ff6e18705fdd20a9a8af1d63a06bdacdd2836778f52328ab9d3"
+        },
+        {
+          "key": "revision/p06",
+          "note": "The Ferry Crossing/Triptychs/Last revision/0006 Coda",
+          "title": "Coda",
+          "part_id": "crossing",
+          "order": 6,
+          "target_digest": "sha256:2231a3190510e3a580bf85f7c9a2a647398c9b06e497999671f92e53d6f6c340"
+        }
+      ]
+    }
+  ]
+}

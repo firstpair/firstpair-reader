@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "title": "Dao De Jing · three editions",
+  "launcher": "Home",
+  "editions": [
+    {
+      "id": "sample",
+      "title": "Sample translation",
+      "version": "2026",
+      "family": "English translations",
+      "data": "_data/editions/sample.json",
+      "note": "Sample translation/Contents"
+    },
+    {
+      "id": "legge",
+      "title": "James Legge",
+      "version": "1891",
+      "family": "English translations",
+      "data": "_data/editions/legge.json",
+      "note": "Legge/Contents"
+    },
+    {
+      "id": "wangbi",
+      "title": "道德经 (Wang Bi text)",
+      "version": "c. 240",
+      "family": "Original",
+      "data": "_data/editions/wangbi.json",
+      "note": "Original/Contents"
+    }
+  ],
+  "anthology": "Sources/Chapter 1 in three editions",
+  "sources": [
+    {
+      "id": "about",
+      "title": "About the texts",
+      "note": "Sources/About the texts"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "code-book": [
+    "Home.md",
+    "Tone Marks/Book.md",
+    "Tone Marks/Chapters/01 What it does.md",
+    "Tone Marks/Chapters/02 Where the mark goes.md",
+    "Tone Marks/Chapters/03 One syllable at a time.md",
+    "Tone Marks/Code/tone_marks.md",
+    "Tone Marks/_data/fragments.json"
+  ],
+  "library": [
+    "Home.md",
+    "Legge/Chapters 1–3.md",
+    "Legge/Contents.md",
+    "Original/Chapters 1–3.md",
+    "Original/Contents.md",
+    "Sample translation/Chapters 1–3.md",
+    "Sample translation/Contents.md",
+    "Sources/About the texts.md",
+    "Sources/Chapter 1 in three editions.md",
+    "_data/editions/legge.json",
+    "_data/editions/sample.json",
+    "_data/editions/wangbi.json",
+    "_data/mobile-library.json"
+  ],
+  "shelf": [
+    "Analects/Book/01 Учиться.md",
+    "Analects/Book/Contents.md",
+    "Analects/Home.md",
+    "Analects/_data/pages/p001.json",
+    "Analects/_data/pages/p002.json",
+    "Analects/_data/pages/p003.json",
+    "Analects/_data/pages/p004.json",
+    "Analects/_data/reader.json",
+    "Diary of a Madman/Book/01 Preface.md",
+    "Diary of a Madman/Book/02 The Diary.md",
+    "Diary of a Madman/Book/Contents.md",
+    "Diary of a Madman/Home.md",
+    "Diary of a Madman/_data/pages/p001.json",
+    "Diary of a Madman/_data/pages/p002.json",
+    "Diary of a Madman/_data/reader.json",
+    "Gettysburg Address/Book/Address.md",
+    "Gettysburg Address/Book/Contents.md",
+    "Gettysburg Address/Home.md",
+    "Gettysburg Address/_data/reader.json",
+    "Home.md"
+  ],
+  "single-book": [
+    "Book/01 The Way.md",
+    "Book/Contents.md",
+    "Home.md",
+    "_data/pages/p001.json",
+    "_data/pages/p002.json",
+    "_data/pages/p003.json",
+    "_data/reader.json"
+  ]
+}

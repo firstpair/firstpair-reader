@@ -1,0 +1,3 @@
+{"id": "draft-1", "title": "Draft 1", "version": "0.1.0", "commit": "0000000000000000000000000000000000000001", "lang": "en", "canonical": false, "index": 1}
+{"id": "draft-2", "title": "Draft 2", "version": "0.2.0", "commit": "0000000000000000000000000000000000000002", "lang": "en", "canonical": false, "index": 2}
+{"id": "final", "title": "Final", "version": "1.0.0", "commit": "0000000000000000000000000000000000000003", "lang": "en", "canonical": true, "index": 3}
