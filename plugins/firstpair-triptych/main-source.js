@@ -1631,17 +1631,24 @@ class FirstPairTriptychReviewView extends ItemView {
     };
   }
 
+  // The pane's shared history (a private one when no plugin supplies it).
   navHistory() {
+    if (!this.plugin || typeof this.plugin.historyFor !== "function" || !this.leaf) {
+      if (!this.localHistory) this.localHistory = new NavHistory(READER_HISTORY_LIMIT);
+      return this.localHistory;
+    }
     const history = this.plugin.historyFor(this.leaf);
     if (this.subscribedHistory !== history) {
       if (this.unsubscribeHistory) this.unsubscribeHistory();
-      this.unsubscribeHistory = history.subscribe(() => this.updateNavButtons());
+      this.unsubscribeHistory = history.subscribe(() => this.refreshHistoryButtons());
       this.subscribedHistory = history;
     }
     return history;
   }
 
-  updateNavButtons() {
+  // Not `updateNavButtons`: Obsidian's own View method of that name runs in
+  // the base constructor, before `this.plugin` is set.
+  refreshHistoryButtons() {
     const history = this.navHistory();
     if (this.backButton) this.backButton.disabled = !history.canBack();
     if (this.forwardButton) this.forwardButton.disabled = !history.canForward();
@@ -1795,7 +1802,7 @@ class FirstPairTriptychReviewView extends ItemView {
         attr: { type: "button" },
       });
       this.forwardButton.addEventListener("click", () => void this.goForward());
-      this.updateNavButtons();
+      this.refreshHistoryButtons();
       const readerButton = bar.createEl("button", {
         text: t("reader_button"),
         attr: { type: "button" },

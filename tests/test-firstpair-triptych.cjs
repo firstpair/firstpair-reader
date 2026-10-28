@@ -1374,3 +1374,46 @@ test("arrow keys turn pages unless something else wants them", () => {
   key("ArrowLeft");
   assert.deepEqual(turns, ["next", "prev"]);
 });
+
+test("views construct under Obsidian 1.14, whose View constructor calls updateNavButtons", () => {
+  const mainPath = path.resolve(__dirname, "../plugins/firstpair-triptych/main.js");
+  // Obsidian's own View method runs from the base constructor, before a
+  // subclass has set `this.plugin`; a view must not override it.
+  class ItemView {
+    constructor(leaf) {
+      this.leaf = leaf;
+      this.app = leaf.app;
+      this.updateNavButtons();
+    }
+    updateNavButtons() {}
+  }
+  const originalLoad = Module._load;
+  Module._load = function load(request, parent, isMain) {
+    if (request === "obsidian") {
+      return {
+        ItemView,
+        Plugin: class {},
+        PluginSettingTab: class {},
+        Setting: class {},
+        Notice: class {},
+        normalizePath: (value) => value,
+        setIcon: () => {},
+      };
+    }
+    return originalLoad.call(this, request, parent, isMain);
+  };
+  try {
+    delete require.cache[mainPath];
+    const hooks = require(mainPath).__test;
+    const leaf = { app: {} };
+    const plugin = { historyFor: () => new (require("../plugins/shared/nav-history").NavHistory)(10) };
+    for (const View of [hooks.FirstPairTriptychReviewView, hooks.FirstPairTriptychReaderView]) {
+      const view = new View(leaf, plugin);
+      assert.equal(view.plugin, plugin);
+      assert.equal(typeof view.navHistory().canBack, "function");
+    }
+  } finally {
+    Module._load = originalLoad;
+    delete require.cache[mainPath];
+  }
+});
