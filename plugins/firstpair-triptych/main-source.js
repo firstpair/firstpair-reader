@@ -1289,15 +1289,8 @@ class FirstPairTriptychReaderView extends ItemView {
       cls: "lt-reader-control-icon",
       attr: { "aria-hidden": "true" },
     });
+    // Icons only: the label and destination live in the tooltip.
     setIcon(icon, READER_ICONS[label]);
-    const copy = button.createSpan({ cls: "lt-reader-control-copy" });
-    copy.createSpan({ cls: "lt-reader-control-label", text: shownLabel });
-    if (destination) {
-      copy.createSpan({
-        cls: "lt-reader-control-destination",
-        text: destination,
-      });
-    }
     button.disabled = Boolean(disabled);
     button.addEventListener("click", () => void action());
     return button;

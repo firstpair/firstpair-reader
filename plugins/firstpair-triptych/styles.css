@@ -668,7 +668,7 @@ body {
   border-color: var(--background-modifier-border);
   display: flex;
   flex: 0 0 auto;
-  gap: 1rem;
+  gap: 0.22rem;
   justify-content: space-between;
   padding: 0.55rem 0;
   position: relative;
@@ -680,16 +680,24 @@ body {
   border-bottom-width: 1px;
 }
 
+/* The controls flow straight into the bar: Previous at its left end, Next
+   at its right end, the other icons, Review and the progress line between. */
 .lt-reader-controls {
-  display: grid;
-  flex: 1 1 auto;
-  gap: 0.22rem;
-  grid-template-columns:
-    minmax(8rem, 1fr)
-    repeat(5, minmax(2.75rem, auto))
-    minmax(8rem, 1fr);
-  min-width: 0;
-  width: min(58rem, 100%);
+  display: contents;
+}
+
+.lt-reader-control-next {
+  margin-left: auto;
+  order: 2;
+}
+
+.lt-reader-review-link,
+.lt-reader-progress {
+  order: 1;
+}
+
+.lt-reader-review-link {
+  margin-left: 0.8rem;
 }
 
 .lt-reader-control {
@@ -703,9 +711,8 @@ body {
   height: auto;
   justify-content: center;
   min-height: 2.75rem;
-  min-width: 0;
+  min-width: 2.75rem;
   padding: 0.25rem 0.4rem;
-  white-space: normal;
 }
 
 .lt-reader-control:hover:not(:disabled),
@@ -731,20 +738,6 @@ body {
   flex: 0 0 auto;
   font-size: 1.08em;
   line-height: 1;
-}
-
-.lt-reader-control-copy {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
-
-.lt-reader-control-destination {
-  color: var(--text-faint);
-  font-size: var(--font-ui-smaller);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .lt-reader-progress {
@@ -977,28 +970,44 @@ body {
   .lt-reader-shell {
     padding: 0 0.55rem;
   }
+  /* Two rows: the icons from edge to edge, then Review and progress. */
   .lt-reader-bar {
-    display: block;
+    flex-wrap: wrap;
+    gap: 0.1rem;
+    justify-content: space-between;
     padding: 0.35rem 0;
   }
-  .lt-reader-controls {
-    grid-template-columns:
-      minmax(0, 1fr)
-      repeat(5, minmax(2.6rem, auto))
-      minmax(0, 1fr);
-    width: 100%;
-  }
   .lt-reader-control {
-    flex-direction: column;
-    font-size: 0.7rem;
-    gap: 0.12rem;
-    min-height: 3.35rem;
-    padding: 0.2rem 0.05rem;
+    min-height: 2.6rem;
+    min-width: 2.6rem;
+    padding: 0.2rem;
+  }
+  .lt-reader-control-next {
+    margin-left: 0;
+    order: 0;
+  }
+  .lt-reader-review-link {
+    min-height: 2rem;
   }
   .lt-reader-progress {
+    flex: 1 1 0;
     min-width: 0;
     padding: 0.25rem 0.2rem 0;
     text-align: center;
+  }
+  .lt-reader-review-link,
+  .lt-reader-progress {
+    order: 3;
+  }
+  .lt-reader-review-link {
+    margin-left: 0;
+    margin-top: 0.25rem;
+  }
+  .lt-reader-bar::after {
+    content: "";
+    flex-basis: 100%;
+    height: 0;
+    order: 2;
   }
   .lt-reader-content {
     padding: 1.35rem 0.2rem 2.5rem;
@@ -1023,28 +1032,8 @@ body {
 }
 
 @media (max-width: 560px) {
-  .lt-reader-controls {
-    grid-template-columns:
-      minmax(0, 1fr)
-      repeat(5, 2.45rem)
-      minmax(0, 1fr);
-  }
-
-  .lt-reader-control-up .lt-reader-control-copy,
-  .lt-reader-control-back .lt-reader-control-copy,
-  .lt-reader-control-forward .lt-reader-control-copy,
-  .lt-reader-control-top .lt-reader-control-copy,
-  .lt-reader-control-toc .lt-reader-control-copy {
-    display: none;
-  }
-
-  .lt-reader-control-previous .lt-reader-control-label,
-  .lt-reader-control-next .lt-reader-control-label {
-    font-size: 0.65rem;
-  }
-
-  .lt-reader-control-destination {
-    max-width: 30vw;
+  .lt-reader-control {
+    min-width: 2.45rem;
   }
 }
 

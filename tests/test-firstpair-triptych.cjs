@@ -1085,14 +1085,14 @@ test("the plugin reads the vault language before drawing UI; views register firs
 
     const View = hooks.FirstPairTriptychReaderView;
     const view = Object.create(View.prototype);
-    const labels = [];
+    // Controls are icons only; the localized name is the tooltip and the
+    // accessible label, with the destination after it.
+    const spans = [];
     const button = {
-      createSpan: () => ({
-        createSpan: (options) => {
-          labels.push(options.text);
-          return {};
-        },
-      }),
+      createSpan: (options) => {
+        spans.push(options);
+        return {};
+      },
       addEventListener: () => {},
     };
     let attrs = null;
@@ -1104,14 +1104,20 @@ test("the plugin reads the vault language before drawing UI; views register firs
     };
     hooks.setUiLanguage("ru");
     view.addControl(container, "Next", () => {}, false, "Глава");
-    assert.equal(labels[0], "Следующий");
+    assert.equal(attrs.title, "Следующий: Глава");
     assert.equal(attrs["aria-label"], "Следующий: Глава");
     hooks.setUiLanguage("it");
     view.addControl(container, "TOC", () => {}, false);
-    assert.equal(labels[2], "Indice");
+    assert.equal(attrs.title, "Indice");
     hooks.setUiLanguage("en");
     view.addControl(container, "Back", () => {}, false);
-    assert.equal(labels[3], "Back");
+    assert.equal(attrs["aria-label"], "Back");
+    assert.deepEqual(spans.map((options) => options.cls), [
+      "lt-reader-control-icon",
+      "lt-reader-control-icon",
+      "lt-reader-control-icon",
+    ]);
+    assert.ok(spans.every((options) => options.text === undefined));
   } finally {
     Module._load = originalLoad;
   }
